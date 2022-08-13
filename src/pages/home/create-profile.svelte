@@ -1,4 +1,4 @@
-<section class="hero bg-white text-black min-h-screen">
+<section class="hero bg-white text-black md:min-h-screen">
   <div class="hero-content">
     <div class="flex flex-col md:flex-row">
       <figure class="flex-1 md:w-1/2 place-items-center">

@@ -6,6 +6,8 @@
   import Home from "./pages/home.svelte";
   import About from "./pages/about.svelte";
 
+  import StampProtocol from "./pages/stamps/index.svelte";
+
   router.mode.hash();
   router.subscribe((_) => window.scrollTo(0, 0));
 </script>
@@ -17,5 +19,8 @@
   </Route>
   <Route path="/about">
     <About />
+  </Route>
+  <Route path="/stamp-protocol">
+    <StampProtocol />
   </Route>
 </Transition>
