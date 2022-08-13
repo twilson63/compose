@@ -1,8 +1,10 @@
-<section class="hero bg-primary text-primary-content">
+<section class="hero bg-primary text-primary-content md:min-h-[600px]">
   <div class="hero-content flex-col w-full">
     <h2 class="text-4xl font-bold my-16 text-center w-full">How it works</h2>
-    <div class="flex items-center space-x-16">
-      <div class="flex flex-col w-1/3 space-y-8 items-center">
+    <div
+      class="flex flex-col md:flex-row justify-center space-y-8 items-center md:space-x-16"
+    >
+      <div class="flex flex-col md:w-1/3 space-y-8 items-center">
         <img
           src="assets/2.png"
           loading="lazy"
@@ -20,7 +22,7 @@
           to access the app.
         </p>
       </div>
-      <div class="flex flex-col w-1/3 space-y-8 items-center">
+      <div class="flex flex-col md:w-1/3 space-y-8 items-center">
         <img
           src="assets/3.png"
           loading="lazy"
@@ -37,7 +39,7 @@
           (required to get your own custom subdomain).
         </p>
       </div>
-      <div class="flex flex-col w-1/3 space-y-8 items-center">
+      <div class="flex flex-col md:w-1/3 space-y-8 items-center">
         <img
           src="assets/4.png"
           loading="lazy"
