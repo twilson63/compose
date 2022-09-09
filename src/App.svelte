@@ -3,7 +3,8 @@
   import Announcer from "./components/announcer.svelte";
   import Transition from "./components/transition.svelte";
 
-  import Home from "./pages/home.svelte";
+  import Start from "./pages/start.svelte";
+  import Dashboard from "./pages/dashboard.svelte";
   import About from "./pages/about.svelte";
 
   import StampProtocol from "./pages/stamps/index.svelte";
@@ -15,7 +16,10 @@
 <Announcer />
 <Transition>
   <Route path="/">
-    <Home />
+    <Start />
+  </Route>
+  <Route path="/dashboard">
+    <Dashboard />
   </Route>
   <Route path="/about">
     <About />

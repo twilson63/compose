@@ -1,9 +1,9 @@
 <script>
-  import Howitworks from "./home/how-it-works.svelte";
-  import Createprofile from "./home/create-profile.svelte";
-  import Keepitclassic from "./home/keep-it-classic.svelte";
-  import MultimediaReady from "./home/mutimedia-ready.svelte";
-  import Builddapps from "./home/build-dapp.svelte";
+  import Howitworks from "./start/how-it-works.svelte";
+  import Createprofile from "./start/create-profile.svelte";
+  import Keepitclassic from "./start/keep-it-classic.svelte";
+  import MultimediaReady from "./start/mutimedia-ready.svelte";
+  import Builddapps from "./start/build-dapp.svelte";
   import ConnectModal from "../modals/connect.svelte";
   import WalletHelp from "../modals/wallet-help.svelte";
 
