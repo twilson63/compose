@@ -15,7 +15,9 @@
   <section class="hero min-h-[600px] bg-base-200">
     <div class="hero-content flex-col md:flex-row space-x-16">
       <div class="max-w-md flex-1">
-        <h1 class="text-5xl font-bold">
+        <h1
+          class="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#7B55EC] to-[#FF00E5]"
+        >
           compose
           <span class="badge badge-secondary">BETA 11</span>
         </h1>
